@@ -1,0 +1,42 @@
+{
+  "name": "Clara Onboarding Pipeline - Batch v2 + Changelog",
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [260, 300]
+    },
+    {
+      "id": "2",
+      "name": "Run Onboarding Pipeline Script",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 2,
+      "position": [600, 300],
+      "parameters": {
+        "command": "python3 scripts/process_onboarding_calls.py --onboarding-dir \"{{ $env.DATASET_ONBOARDING_DIR || 'dataset/onboarding' }}\" --outputs-dir \"{{ $env.OUTPUTS_DIR || 'outputs/accounts' }}\" --changelog-dir \"{{ $env.CHANGELOG_DIR || 'changelog' }}\""
+      }
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Run Onboarding Pipeline Script",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionTimeout": -1
+  },
+  "tags": [
+    { "name": "clara" },
+    { "name": "onboarding" }
+  ]
+}

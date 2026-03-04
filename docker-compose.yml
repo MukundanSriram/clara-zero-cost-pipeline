@@ -1,0 +1,17 @@
+services:
+  n8n:
+    build: .
+    image: n8n-python
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=false
+      - DATASET_DEMO_DIR=dataset/demo
+      - DATASET_ONBOARDING_DIR=dataset/onboarding
+      - OUTPUTS_DIR=outputs/accounts
+      - CHANGELOG_DIR=changelog
+      - N8N_NODES_INCLUDE=n8n-nodes-base.executeCommand
+      - NODES_EXCLUDE=[]
+    working_dir: /workspace
+    volumes:
+      - .:/workspace

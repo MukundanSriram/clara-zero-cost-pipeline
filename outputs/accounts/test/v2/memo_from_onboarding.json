@@ -1,0 +1,39 @@
+{
+  "account_id": "test",
+  "company_name": "",
+  "business_hours": {
+    "days": [],
+    "start": "",
+    "end": "",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [],
+  "emergency_definition": [],
+  "emergency_routing_rules": {
+    "primary": [],
+    "fallback": [],
+    "notes": ""
+  },
+  "non_emergency_routing_rules": {
+    "primary": [],
+    "fallback": [],
+    "notes": ""
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 30,
+    "max_retries": 2,
+    "failure_message": "I\u2019m unable to reach the on-call team right now, but I will log your details and someone will call you back as soon as possible."
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [
+    "Company name not clearly stated.",
+    "Business hours incomplete or missing.",
+    "Office address missing.",
+    "Services supported not clearly listed.",
+    "Emergency definition unclear."
+  ],
+  "notes": ""
+}

@@ -1,0 +1,59 @@
+{
+  "account_id": "acme_fire",
+  "changes": {
+    "company_name": {
+      "old": "",
+      "new": "the onboarding call for Acme Fire & Safety"
+    },
+    "business_hours": {
+      "old": {
+        "days": [
+          "Mon",
+          "Fri"
+        ],
+        "start": "08:00",
+        "end": "17:00",
+        "timezone": "America/Los_Angeles"
+      },
+      "new": {
+        "days": [],
+        "start": "",
+        "end": "",
+        "timezone": ""
+      }
+    },
+    "emergency_routing_rules": {
+      "old": {
+        "primary": [],
+        "fallback": [],
+        "notes": ""
+      },
+      "new": {
+        "primary": [],
+        "fallback": [
+          "branch_manager"
+        ],
+        "notes": ""
+      }
+    },
+    "integration_constraints": {
+      "old": [],
+      "new": [
+        "This is the onboarding call for Acme Fire & Safety. After hours, emergencies go to the on-call technician first, then the branch manager if they don't pick up."
+      ]
+    },
+    "questions_or_unknowns": {
+      "old": [
+        "Company name not clearly stated.",
+        "Office address missing.",
+        "Emergency definition unclear."
+      ],
+      "new": [
+        "Business hours incomplete or missing.",
+        "Office address missing.",
+        "Services supported not clearly listed.",
+        "Emergency definition unclear."
+      ]
+    }
+  }
+}
