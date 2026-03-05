@@ -2,6 +2,7 @@
   "demo_dir": "dataset/demo",
   "accounts_processed": [
     "acme_fire",
+    "bens_electric",
     "test"
   ]
 }

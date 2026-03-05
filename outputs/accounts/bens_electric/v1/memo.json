@@ -1,0 +1,41 @@
+{
+  "account_id": "bens_electric",
+  "company_name": "Ben's Electric Solutions",
+  "business_hours": {
+    "days": [],
+    "start": "30:00",
+    "end": "08:00",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [
+    "testing"
+  ],
+  "emergency_definition": [],
+  "emergency_routing_rules": {
+    "primary": [],
+    "fallback": [],
+    "notes": ""
+  },
+  "non_emergency_routing_rules": {
+    "primary": [
+      "front_desk"
+    ],
+    "fallback": [],
+    "notes": ""
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 30,
+    "max_retries": 2,
+    "failure_message": "I\u2019m unable to reach the on-call team right now, but I will log your details and someone will call you back as soon as possible."
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [
+    "Business hours incomplete or missing.",
+    "Office address missing.",
+    "Emergency definition unclear."
+  ],
+  "notes": ""
+}

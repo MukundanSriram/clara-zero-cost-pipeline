@@ -1,0 +1,46 @@
+{
+  "account_id": "bens_electric",
+  "company_name": "Ben's Electric Solutions",
+  "business_hours": {
+    "days": [
+      "Mon",
+      "Fri"
+    ],
+    "start": "12:00",
+    "end": "03:00",
+    "timezone": "America/New_York"
+  },
+  "office_address": "",
+  "services_supported": [
+    "testing"
+  ],
+  "emergency_definition": [
+    "After-hours emergency handling: There is no general after-hours emergency service except for one key property manager client. Calls from this client can be patched through to Ben directly for emergencies. Pawan will configure Clara to recognize this client and allow call patching only for them. Ben to provide detailed client info including customer name, property name, address, and primary contact for after-hours emergencies. This client manages about 20 gas station properties requiring occasional emergency service."
+  ],
+  "emergency_routing_rules": {
+    "primary": [],
+    "fallback": [
+      "branch_manager"
+    ],
+    "notes": ""
+  },
+  "non_emergency_routing_rules": {
+    "primary": [],
+    "fallback": [],
+    "notes": ""
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 30,
+    "max_retries": 2,
+    "failure_message": "I\u2019m unable to reach the on-call team right now, but I will log your details and someone will call you back as soon as possible."
+  },
+  "integration_constraints": [
+    "Integration: Jobber integration is in progress. Onboarding team will tailor Clara's functionalities to Ben's business needs and workflows. Never create jobs or work orders in Jobber or other systems without confirmation from dispatch or Ben."
+  ],
+  "after_hours_flow_summary": "",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [
+    "Office address missing."
+  ],
+  "notes": ""
+}

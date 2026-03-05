@@ -160,7 +160,15 @@ File naming convention (configurable in scripts):
 - Demo: `<account_id>_demo_<N>.txt`
 - Onboarding: `<account_id>_onboarding_<N>.txt`
 
-The **`<account_id>` prefix must match** between demo and onboarding files (e.g. `acme_fire_demo_1.txt` and `acme_fire_onboarding_1.txt`).
+The **`<account_id>` prefix must match** between demo and onboarding files (e.g. `bens_electric_demo_1.txt` and `bens_electric_onboarding_1.txt`).
+
+**Sample data (Ben's Electric)**  
+This repo includes sample transcripts for **Ben's Electric** / **Ben's Electric Solutions** (Clara Answering Agent):
+
+- Demo call source: [Fireflies.ai](https://app.fireflies.ai/view/01KEFDQJ7E0EZR9WDFBWK774D9)
+- Onboarding call source: [Google Drive](https://drive.google.com/drive/folders/1k-sUTmD1OZsbDWEq0avQwdwTk-JDG-N1?usp=drive_link)
+
+See `dataset/README.md` for details and how to replace with real transcripts.
 
 ### 3. Python Pipelines (without n8n)
 

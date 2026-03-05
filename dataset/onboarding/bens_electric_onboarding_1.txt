@@ -1,0 +1,17 @@
+Onboarding Call – Ben's Electric Solutions / Clara Agent Configuration
+
+You're calling Ben's Electric Solutions. This is the onboarding call to configure the Clara agent.
+
+Contract and onboarding: 12-month contract with 3-month trial ensures price stability and low-risk commitment. Ben signed the DocuSign; billing will start shortly. Pawan is the dedicated contact for onboarding and support. Initial goal: complete configuration and testing by Friday with live calls starting over the weekend. Call forwarding configured from Ben's main business number to Clara. During office hours calls forward to Clara if Ben does not answer or declines. Ben uses Android for forwarding setup. After Ben activates a second personal number Clara will become the first point of contact and can patch calls to Ben as needed. Call transfer feature requires that second phone number so Clara can transfer callers who insist on direct contact. Only incoming calls are forwarded to Clara; SMS and outbound calls remain normal on Ben's phone. Ben receives notifications of new calls via SMS and email at info@benselectricsolutionsteam.com.
+
+Business hours: Official working hours are Monday to Friday approximately 8:00 AM to 4:30 PM Eastern. After-hours calls from most customers will be handled by taking messages and responding next business day. Clara will use website info for general after-hours messaging.
+
+After-hours emergency handling: There is no general after-hours emergency service except for one key property manager client. Calls from this client can be patched through to Ben directly for emergencies. Pawan will configure Clara to recognize this client and allow call patching only for them. Ben to provide detailed client info including customer name, property name, address, and primary contact for after-hours emergencies. This client manages about 20 gas station properties requiring occasional emergency service.
+
+Pricing and messaging: Service call fee is $115 for travel to site plus $98 per hour billed in half-hour increments. Clara will mention fees only when customers ask.
+
+Dashboard and follow-up: Ben will receive dashboard login and agent number details for independent testing. Dashboard shows call logs and agent interactions. Scheduled follow-up meeting Friday at 2:00 PM for feedback and dashboard walkthrough. Goal to finalize settings and go live following that session. Ben will receive detailed email with configuration summary including agent number, dashboard link, and next steps. Pawan and Bharat remain points of contact for ongoing support.
+
+Integration: Jobber integration is in progress. Onboarding team will tailor Clara's functionalities to Ben's business needs and workflows. Never create jobs or work orders in Jobber or other systems without confirmation from dispatch or Ben.
+
+Transfer and fallback: If transfer to Ben or on-call fails tell the caller we've logged their details and someone will call them back as soon as possible. Use a transfer timeout of about 30 seconds and up to two retries where applicable.

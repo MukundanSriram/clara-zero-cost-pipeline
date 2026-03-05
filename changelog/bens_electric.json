@@ -1,0 +1,72 @@
+{
+  "account_id": "bens_electric",
+  "changes": {
+    "business_hours": {
+      "old": {
+        "days": [],
+        "start": "30:00",
+        "end": "08:00",
+        "timezone": ""
+      },
+      "new": {
+        "days": [
+          "Mon",
+          "Fri"
+        ],
+        "start": "12:00",
+        "end": "03:00",
+        "timezone": "America/New_York"
+      }
+    },
+    "emergency_definition": {
+      "old": [],
+      "new": [
+        "After-hours emergency handling: There is no general after-hours emergency service except for one key property manager client. Calls from this client can be patched through to Ben directly for emergencies. Pawan will configure Clara to recognize this client and allow call patching only for them. Ben to provide detailed client info including customer name, property name, address, and primary contact for after-hours emergencies. This client manages about 20 gas station properties requiring occasional emergency service."
+      ]
+    },
+    "emergency_routing_rules": {
+      "old": {
+        "primary": [],
+        "fallback": [],
+        "notes": ""
+      },
+      "new": {
+        "primary": [],
+        "fallback": [
+          "branch_manager"
+        ],
+        "notes": ""
+      }
+    },
+    "non_emergency_routing_rules": {
+      "old": {
+        "primary": [
+          "front_desk"
+        ],
+        "fallback": [],
+        "notes": ""
+      },
+      "new": {
+        "primary": [],
+        "fallback": [],
+        "notes": ""
+      }
+    },
+    "integration_constraints": {
+      "old": [],
+      "new": [
+        "Integration: Jobber integration is in progress. Onboarding team will tailor Clara's functionalities to Ben's business needs and workflows. Never create jobs or work orders in Jobber or other systems without confirmation from dispatch or Ben."
+      ]
+    },
+    "questions_or_unknowns": {
+      "old": [
+        "Business hours incomplete or missing.",
+        "Office address missing.",
+        "Emergency definition unclear."
+      ],
+      "new": [
+        "Office address missing."
+      ]
+    }
+  }
+}
